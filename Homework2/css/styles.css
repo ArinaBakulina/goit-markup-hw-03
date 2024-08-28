@@ -1,0 +1,129 @@
+/* C5, C6, C7: Встановлюємо основний шрифт для body */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333; /* C8: Домінантний колір тексту */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* C10: Висота рядка як множник */
+}
+
+/* C1: Використання селекторів класу для оформлення */
+
+/* Оформлення хедера */
+.header {
+    background-color: #f8f8f8; /* C11: Відповідність кольору макету */
+    padding: 20px 0;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500; /* C12: Вказана вага шрифту */
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #0056b3; /* C3: Зміна кольору при ховері та фокусі */
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #007BFF; /* C4: Зміна кольору при ховері та фокусі */
+}
+
+/* Оформлення головного контенту */
+.hero-title {
+    font-size: 36px; /* C9: Розмір шрифту відповідає макету */
+    font-weight: 700;
+    color: #333; /* C11: Відповідність кольору */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer; /* C13: Зміна курсору для кнопок */
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #218838; /* C3: Зміна кольору при ховері та фокусі */
+}
+
+/* Оформлення секцій */
+.section-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.feature-title,
+.team-member-name,
+.portfolio-item-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.feature-description,
+.team-member-role,
+.portfolio-item-category,
+.footer-text {
+    font-size: 18px; /* C9: Розмір шрифту */
+    font-weight: 400; /* C14: Стандартна вага шрифту */
+    color: #666; /* C11: Колір відповідає макету */
+}
+
+.footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.footer-logo:hover,
+.footer-logo:focus {
+    color: #0056b3; /* Зміна кольору при ховері та фокусі */
+}
+
+/* Оформлення зображень */
+.team-photo,
+.portfolio-photo {
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
