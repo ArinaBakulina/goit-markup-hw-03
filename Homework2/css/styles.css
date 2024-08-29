@@ -1,9 +1,11 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular */
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em; /* 2% */
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 .hero-title { 
@@ -36,7 +38,25 @@ body {
     letter-spacing: 0.04em; /* 4% */
 }
 
-.nav-logo, .nav-link, .contact-link, .footer-logo {
+.nav-logo,
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    
+}
+
+.nav-logo span,
+.footer-logo span {
+    color: #2e2f42;
+}
+
+.nav-link,
+.contact-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; /* Regular */
     font-size: 12px;
@@ -44,7 +64,6 @@ body {
     letter-spacing: 0.04em; /* 4% */
     text-decoration: underline;
 }
-
 /* Оформлення хедера */
 .header {
     background-color: #f8f8f8; /* C11: Відповідність кольору макету */
@@ -134,27 +153,24 @@ body {
 .portfolio-item-category,
 .footer-text {
     font-size: 18px; /* C9: Розмір шрифту */
-    font-weight: 400; /* C14: Стандартна вага шрифту */
+    font-weight: 500;
     color: #666; /* C11: Колір відповідає макету */
 }
 
 .footer {
-    background-color: #f8f8f8;
+    background-color: #2e2f42; 
     text-align: center;
     padding: 20px;
 }
 
-.footer-logo {
-    font-weight: 700;
-    color: #333;
-    text-decoration: none;
-    font-size: 24px;
+
+.footer-text {
+    font-family: "Raleway", sans-serif; 
+    line-height: 1.5; 
+    color: var(--color-variable, #f4f4fd);
+    letter-spacing: 0.02em; 
 }
 
-.footer-logo:hover,
-.footer-logo:focus {
-    color: #0056b3; /* Зміна кольору при ховері та фокусі */
-}
 
 /* Оформлення зображень */
 .team-photo,
