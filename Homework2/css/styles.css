@@ -1,13 +1,49 @@
-/* C5, C6, C7: Встановлюємо основний шрифт для body */
 body {
-    font-family: 'Roboto', Arial, sans-serif;
-    color: #333; /* C8: Домінантний колір тексту */
-    margin: 0;
-    padding: 0;
-    line-height: 1.6; /* C10: Висота рядка як множник */
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em; /* 2% */
 }
 
-/* C1: Використання селекторів класу для оформлення */
+.hero-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 56px;
+    letter-spacing: 0.02em; /* 2% */
+    line-height: 60px;
+}
+
+.section-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 36px;
+    letter-spacing: 0.02em; /* 2% */
+}
+
+.feature-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 20px;
+    letter-spacing: 0.02em; /* 2% */
+}
+
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em; /* 4% */
+}
+
+.nav-logo, .nav-link, .contact-link, .footer-logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.04em; /* 4% */
+    text-decoration: underline;
+}
 
 /* Оформлення хедера */
 .header {
