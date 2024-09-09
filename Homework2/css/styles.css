@@ -6,6 +6,7 @@ body {
     letter-spacing: 0.02em; /* 2% */
     color: #434455;
     background-color: #FFFFFF;
+    
 }
 
 .hero-title { 
@@ -63,6 +64,7 @@ body {
     line-height: 16px;
     letter-spacing: 0.04em; /* 4% */
     text-decoration: underline;
+    font-style: normal;
 }
 /* Оформлення хедера */
 .header {
@@ -93,6 +95,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-style: normal;
 }
 
 .contact-link {
@@ -116,19 +119,22 @@ body {
 }
 
 .hero-button {
-    background-color: #28a745;
-    color: #fff;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
     font-weight: 500;
     font-size: 16px;
-    cursor: pointer; /* C13: Зміна курсору для кнопок */
+    cursor: pointer; 
 }
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: #218838; /* C3: Зміна кольору при ховері та фокусі */
+    background-color: #404BBF; 
 }
 
 /* Оформлення секцій */
