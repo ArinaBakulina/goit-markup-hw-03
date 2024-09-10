@@ -44,16 +44,15 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700; 
     font-size: 18px;
-    line-height: 17px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    line-height: 1.17;
     
 }
 
-.nav-logo span,
-.footer-logo span {
-    color: #2e2f42;
+.nav-logo span {color: #2e2f42;}
+.footer-logo span {color:#f4f4fd;     
 }
 
 .nav-link,
@@ -78,17 +77,27 @@ body {
     margin: 0;
     display: flex;
     gap: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
 }
 
 .nav-link {
     color: #007BFF;
     text-decoration: none;
-    font-weight: 500; /* C12: Вказана вага шрифту */
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #0056b3; /* C3: Зміна кольору при ховері та фокусі */
+    color: #404bbf;
+
 }
 
 .contact-list {
@@ -96,6 +105,7 @@ body {
     padding: 0;
     margin: 0;
     font-style: normal;
+    
 }
 
 .contact-link {
