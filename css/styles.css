@@ -83,6 +83,7 @@ body {
 .header {
     background-color: #2e2f42; /* Фон хедера */
     padding: 20px 0;
+    
 }
 
 /* Оформлення списку навігації */
@@ -104,8 +105,12 @@ body {
 
 /* Стилі для першого пункту списку */
 .nav-list li:first-child .nav-link {
-    color: #2e2f42; /* Колір тексту для першого пункту списку */
-}
+    color: #2e2f42; /* Колір тексту для першого пункту списку */}
+
+.nav-list li:first-child .nav-link:hover,
+    .nav-list li:first-child .nav-link:focus {
+        color: #404bbf;  
+    }
 
 /* Стилі при ховері та фокусі для всіх посилань */
 .nav-link:hover,
@@ -118,6 +123,8 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-style: normal;
+    color: #434455;
 }
 
 /* Стилі для контактних посилань */
