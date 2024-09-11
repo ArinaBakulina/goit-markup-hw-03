@@ -1,138 +1,263 @@
-/* Основні стилі для body */
+/* Основні стилі для всього документа */
 body {
-    font-family: "Roboto", sans-serif; /* Визначає шрифт для всього сайту */
+    font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular */
-    font-size: 16px; /* Визначає розмір шрифту */
-    line-height: 24px; /* Визначає висоту рядка */
-    letter-spacing: 0.02em; /* Відстань між літерами */
-    color: #434455; /* Колір тексту */
-    background-color: #FFFFFF; /* Колір фону */
-}
-
-/* Стилі для hero-title */
-.hero-title { 
-    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
-    font-weight: 700; /* Bold */
-    font-size: 56px; /* Розмір шрифту */
-    letter-spacing: 0.02em; /* Відстань між літерами */
-    line-height: 60px; /* Висота рядка */
-    color: #333; /* Колір тексту */
-    text-align: center; /* Вирівнювання по центру */
-    margin-bottom: 20px; /* Відступ знизу */
-}
-
-/* Стилі для section-title */
-.section-title { 
-    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
-    font-weight: 700; /* Bold */
-    font-size: 36px; /* Розмір шрифту */
-    letter-spacing: 0.02em; /* Відстань між літерами */
-    color: #333; /* Колір тексту */
-    margin-bottom: 20px; /* Відступ знизу */
-}
-
-/* Стилі для feature-title */
-.feature-title { 
-    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
-    font-weight: 500; /* Medium */
-    font-size: 20px; /* Розмір шрифту */
-    letter-spacing: 0.02em; /* Відстань між літерами */
-    color: #333; /* Колір тексту */
-}
-
-/* Стилі для кнопки hero-button */
-.hero-button {
-    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
-    font-weight: 500; /* Medium */
-    font-size: 16px; /* Розмір шрифту */
-    line-height: 24px; /* Висота рядка */
-    letter-spacing: 0.04em; /* Відстань між літерами */
-    background-color: #4D5AE5; /* Колір фону */
-    color: #ffffff; /* Колір тексту */
-    padding: 10px 20px; /* Внутрішні відступи */
-    text-decoration: none; /* Вимикає підкреслення тексту */
-    border-radius: 5px; /* Округлені кути */
-    cursor: pointer; /* Стиль курсору */
-}
-
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF; /* Зміна кольору при наведенні та фокусі */
-}
-
-/* Стилі для навігації та футера */
-.nav-logo,
-.footer-logo {
-    font-family: "Raleway", sans-serif; /* Шрифт Raleway */
-    font-weight: 700; /* Bold */
-    font-size: 18px; /* Розмір шрифту */
-    letter-spacing: 0.03em; /* Відстань між літерами */
-    text-transform: uppercase; /* Всі букви великі */
-    color: #4d5ae5; /* Колір тексту */
-    line-height: 1.17; /* Висота рядка */
-}
-
-.nav-logo span {
-    color: #2e2f42; /* Колір тексту для span */
-}
-
-.footer-logo span {
-    color: #f4f4fd; /* Колір тексту для span */
-}
-
-/* Стилі для навігаційних та контактних посилань */
-.nav-link,
-.contact-link {
-    font-family: 'Roboto', sans-serif; /* Шрифт Roboto */
-    font-weight: 400; /* Regular */
-    font-size: 16px; /* Розмір шрифту */
-    line-height: 1.5; /* Висота рядка */
-    letter-spacing: 0.02em; /* Відстань між літерами */
-    color: #434455; /* Колір тексту */
-    text-decoration: underline; /* Підкреслення */
-}
-
-.nav-link:hover,
-.contact-link:hover,
-.nav-link:focus,
-.contact-link:focus {
-    color: #404bbf; /* Зміна кольору при ховері та фокусі */
-    text-decoration: none; /* Вимикає підкреслення при ховері та фокусі */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em; /* 2% */
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 /* Стилі для хедера */
 .header {
-    background-color: #2e2f42; /* Колір фону */
-    padding: 20px 0; /* Відступи */
+    background-color: #2e2f42; /* Фон хедера */
+    padding: 20px 0;
+}
+
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.nav-logo span {
+    color: #2e2f42;
 }
 
 .nav-list {
-    list-style: none; /* Прибирає маркери списку */
-    padding: 0; /* Відсутність внутрішніх відступів */
-    margin: 0; /* Відсутність зовнішніх відступів */
-    display: flex; /* Вирівнювання елементів у рядок */
-    gap: 20px; /* Проміжки між елементами */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
 }
 
-/* Стилі для зображень */
-.team-photo,
-.portfolio-photo {
-    border-radius: 5px; /* Округлені кути зображень */
-    margin-bottom: 10px; /* Відступ знизу */
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
 
-/* Стилі для футера */
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-link {
+    color: #333;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #007BFF;
+}
+
+address {
+    font-style: normal; /* Вимкнення курсиву */
+}
+
+/* Основна секція */
+.hero {
+    background-color: #2e2f42; /* Фон для секції */
+}
+
+.hero-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+/* Оформлення другої секції */
+.features {
+    padding: 40px 0;
+}
+
+.section-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Оформлення третьої секції */
+.team {
+    background-color: #F4F4FD;
+    padding: 40px 0;
+}
+
+.team-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 20px;
+}
+
+.team-member-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.team-member-role {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.team-photo {
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Оформлення четвертої секції */
+.portfolio {
+    padding: 40px 0;
+}
+
+.portfolio-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 5px;
+    width: calc(33.333% - 20px);
+}
+
+.portfolio-item img {
+    width: 360px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.portfolio-item-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 10px;
+}
+
+.portfolio-item-description {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Оформлення футера */
 .footer {
-    background-color: #2e2f42; /* Колір фону */
-    text-align: center; /* Центрування тексту */
-    padding: 20px; /* Внутрішні відступи */
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+}
+
+.footer-logo span {
+    color: #f4f4fd;
 }
 
 .footer-text {
-    font-family: "Raleway", sans-serif; /* Шрифт Raleway */
-    line-height: 1.5; /* Висота рядка */
-    color: var(--color-variable, #f4f4fd); /* Колір тексту */
-    letter-spacing: 0.02em; /* Відстань між літерами */
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    color: var(--color-variable, #f4f4fd);
+    letter-spacing: 0.02em;
+    margin-top: 10px;
 }
-
 
