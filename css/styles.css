@@ -1,4 +1,4 @@
-/* Основні стилі для всього документа */
+/* Оформлення тега body */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular */
@@ -9,56 +9,118 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Стилі для хедера */
+/* Оформлення заголовку в hero секції */
+.hero-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 56px;
+    letter-spacing: 0.02em; /* 2% */
+    line-height: 60px;
+}
+
+/* Оформлення заголовків секцій */
+.section-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 36px;
+    letter-spacing: 0.02em; /* 2% */
+}
+
+.feature-title { 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 20px;
+    letter-spacing: 0.02em; /* 2% */
+}
+
+/* Оформлення кнопки в hero секції */
+.hero-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500; /* Medium */
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em; /* 4% */
+    background-color: #4D5AE5;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF; 
+}
+
+/* Оформлення логотипу */
+.nav-logo,
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; 
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    line-height: 1.17;
+}
+
+/* Стилі для span всередині логотипу */
+.nav-logo span {color: #2e2f42;}
+.footer-logo span {color:#f4f4fd;}
+
+/* Оформлення навігаційних та контактних посилань */
+.nav-link,
+.contact-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #434455;
+}
+
+/* Оформлення хедера */
 .header {
     background-color: #2e2f42; /* Фон хедера */
     padding: 20px 0;
 }
 
-.nav-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.nav-logo span {
-    color: #2e2f42;
-}
-
+/* Оформлення списку навігації */
 .nav-list {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-.nav-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
-    text-decoration: none;
+    color: #2e2f42;
 }
 
+/* Оформлення посилань у списку навігації */
+.nav-link {
+    font-weight: 500;
+    color: #434455; /* Колір тексту для посилань */
+}
+
+/* Стилі для першого пункту списку */
+.nav-list li:first-child .nav-link {
+    color: #2e2f42; /* Колір тексту для першого пункту списку */
+}
+
+/* Стилі при ховері та фокусі для всіх посилань */
 .nav-link:hover,
 .nav-link:focus {
-    color: #404bbf;
+    color: #404bbf; /* Зміна кольору тексту при ховері та фокусі */
 }
 
+/* Оформлення списку контактів */
 .contact-list {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+/* Стилі для контактних посилань */
 .contact-link {
     color: #333;
     text-decoration: none;
@@ -67,197 +129,89 @@ body {
 
 .contact-link:hover,
 .contact-link:focus {
-    color: #007BFF;
+    color: #007BFF; /* Зміна кольору при ховері та фокусі */
 }
 
-address {
-    font-style: normal; /* Вимкнення курсиву */
-}
-
-/* Основна секція */
-.hero {
-    background-color: #2e2f42; /* Фон для секції */
-}
-
+/* Оформлення заголовку hero секції */
 .hero-title {
-    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
     font-weight: 700;
-    font-size: 56px;
-    letter-spacing: 0.02em;
-    line-height: 1.07;
-    color: #ffffff;
+    color: #333;
     text-align: center;
     margin-bottom: 20px;
 }
 
-.hero-button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #ffffff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-    background-color: #404BBF;
-}
-
-/* Оформлення другої секції */
-.features {
-    padding: 40px 0;
-}
-
+/* Оформлення секцій */
 .section-title {
-    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #333;
     margin-bottom: 20px;
 }
 
-.feature-title {
-    font-family: 'Roboto', sans-serif;
+/* Оформлення тексту */
+.feature-description,
+.team-member-role,
+.portfolio-item-category,
+.footer-text {
+    font-size: 18px;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.feature-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-/* Оформлення третьої секції */
-.team {
-    background-color: #F4F4FD;
-    padding: 40px 0;
-}
-
-.team-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 20px;
-}
-
-.team-member-name {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.team-member-role {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
-.team-photo {
-    width: 360px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-/* Оформлення четвертої секції */
-.portfolio {
-    padding: 40px 0;
-}
-
-.portfolio-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.portfolio-item {
-    background-color: #FFFFFF;
-    padding: 20px;
-    border-radius: 5px;
-    width: calc(33.333% - 20px);
-}
-
-.portfolio-item img {
-    width: 360px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
-
-.portfolio-item-title {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 10px;
-}
-
-.portfolio-item-description {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+    color: #666;
 }
 
 /* Оформлення футера */
 .footer {
-    background-color: #2e2f42;
+    background-color: #2e2f42; 
     text-align: center;
     padding: 20px;
 }
 
-.footer-logo {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4d5ae5;
-    text-decoration: none;
-}
-
-.footer-logo span {
-    color: #f4f4fd;
-}
-
 .footer-text {
-    font-family: "Raleway", sans-serif;
-    line-height: 1.5;
+    font-family: "Raleway", sans-serif; 
+    line-height: 1.5; 
     color: var(--color-variable, #f4f4fd);
+    letter-spacing: 0.02em; 
+}
+
+/* Оформлення третьої секції */
+.portfolio {
+    background-color: #F4F4FD; /* Фон секції */
+}
+
+.portfolio .section-title {
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+/* Оформлення заголовків елементів списку */
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-top: 10px;
+    color: #2e2f42;
+}
+
+.portfolio-item-category {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Оформлення четвертої секції */
+.portfolio .portfolio-item {
+    background-color: #FFFFFF;
+}
+
+.portfolio-item h3 {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
