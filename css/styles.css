@@ -18,6 +18,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 /* Стилі для span всередині логотипу */
@@ -32,6 +33,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    text-decoration: none;
 }
 
 /* Стиль для посилань при наведенні та фокусі */
@@ -42,6 +44,7 @@ body {
 /* Стилі для адреси (контактної інформації) */
 .contact-info {
     font-style: normal;
+    text-decoration: none;
 }
 
 .contact-link {
@@ -49,6 +52,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .contact-link:hover, .contact-link:focus {
@@ -57,7 +61,7 @@ body {
 
 /* Стилі для секції hero */
 .hero {
-    background-color: #2e2f42;
+    background-color: #2e2f42; 
 }
 
 .hero-title {
@@ -91,6 +95,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+
 }
 
 .feature-title {
@@ -111,17 +116,19 @@ body {
 /* Стилі для секції team */
 .team-photo {
     width: 360px;
+    background-color: #F4F4FD;
 }
 
-.team-member-name {
+.team-name {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    background-color: #FFFFFF
 }
 
-.team-member-role {
+.team-role {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -161,6 +168,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    text-decoration: none;
 }
 
 .footer .logo-studio {
