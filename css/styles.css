@@ -1,4 +1,5 @@
 /* Оформлення тега body */
+/* Базові стилі для тіла */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular */
@@ -9,7 +10,7 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Оформлення заголовку в hero секції */
+/* Оформлення заголовку в hero секції (перевикористано для h3) */
 .hero-title { 
     font-family: 'Roboto', sans-serif;
     font-weight: 500; /* Bold */
@@ -17,20 +18,23 @@ body {
     letter-spacing: 0.02em;
     line-height: 1.2;
     text-align: center;
-    color:#2e2f42;
+    color: #2e2f42;
 }
 
 /* Оформлення заголовків секцій */
 .section-title { 
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.2;
+    line-height: 1.11;
     color: #2e2f42;
     text-transform: capitalize;
 }
+
+/* Стилі для списку можна додати за необхідністю */
+
 
 /* Оформлення кнопки в hero секції */
 .hero-button {
