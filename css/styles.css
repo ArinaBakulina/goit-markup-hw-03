@@ -114,13 +114,17 @@ body {
 }
 
 /* Стилі для секції team */
+
+.team-photo, .team-name, .team-role {
+    background-color:#FFFFFF;
+}
 .team-member {
-    background-color: #FFFFFF; /* Оновлено для визначення білого фону */
+    background-color: #F4F4FD; /* Оновлено для визначення білого фону */
 }
 
 .team-photo {
     width: 360px;
-    background-color: #F4F4FD; /* Залишено фон для фото */
+    background-color: #FFFFFF; /* Залишено фон для фото */
 }
 
 .team-name {
