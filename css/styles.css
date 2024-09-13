@@ -24,10 +24,10 @@ body {
 .section-title { 
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
-    font-size: 36px;
+    font-size: 20px;
     letter-spacing: 0.02em;
     text-align: center;
-    line-height: 1.11;
+    line-height: 1.2;
     color: #2e2f42;
     text-transform: capitalize;
 }
