@@ -114,6 +114,9 @@ body {
 }
 
 /* Стилі для секції team */
+.team {  background-color: #F4F4FD;
+}
+.team-list {background-color: #FFFFFF; }
 .team-photo {
     width: 360px;
     background-color: #F4F4FD;
@@ -125,7 +128,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;
 }
 
 .team-role {
