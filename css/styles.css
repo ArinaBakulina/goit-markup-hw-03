@@ -114,11 +114,13 @@ body {
 }
 
 /* Стилі для секції team */
-.team-member {background-color: #F4F4FD;
+.team-member {
+    background-color: #FFFFFF; /* Оновлено для визначення білого фону */
 }
+
 .team-photo {
     width: 360px;
-    background-color: #F4F4FD;
+    background-color: #F4F4FD; /* Залишено фон для фото */
 }
 
 .team-name {
@@ -127,7 +129,7 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Фон для імені */
 }
 
 .team-role {
@@ -135,7 +137,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    background-color: #FFFFFF;
+    background-color: #FFFFFF; /* Фон для ролі */
 }
 
 /* Стилі для секції portfolio */
