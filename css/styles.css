@@ -1,5 +1,4 @@
-/* Оформлення тега body */
-/* Базові стилі для тіла */
+/* Базові стилі для тега body */
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 400; /* Regular */
@@ -10,134 +9,166 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Оформлення заголовку в hero секції (перевикористано для h3) */
-.hero-title { 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500; /* Bold */
-    font-size: 20px;
-    letter-spacing: 0.02em;
-    line-height: 1.2;
-    text-align: center;
+/* Стилі для логотипу у навігації */
+.nav-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700; /* Bold */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+/* Стилі для span всередині логотипу */
+.logo-studio {
     color: #2e2f42;
 }
 
-/* Оформлення заголовків секцій */
-.section-title { 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    text-align: center;
-    line-height: 1.11;
-    color: #2e2f42;
-    text-transform: capitalize;
-}
-
-/* Стилі для списку можна додати за необхідністю */
-
-
-/* Оформлення кнопки в hero секції */
-.hero-button {
-    font-family: 'Roboto', sans-serif;
+/* Стилі для посилань у навігації */
+.nav-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.04em;
-    background-color: #4D5AE5;
-    color: #ffffff;
-    text-decoration: none;
-    cursor: pointer;
-    border: none;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+/* Стиль для посилань при наведенні та фокусі */
+.nav-link:hover, .nav-link:focus {
+    color: #404bbf;
+}
+
+/* Стилі для адреси (контактної інформації) */
+.contact-info {
+    font-style: normal;
+}
+
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.contact-link:hover, .contact-link:focus {
+    color: #404bbf;
+}
+
+/* Стилі для секції hero */
+.hero {
+    background-color: #2e2f42;
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.hero-button {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
 }
 
-/* Оформлення логотипу */
-.nav-logo,
+/* Стилі для секції features */
+.section-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.feature-description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Стилі для секції team */
+.team-photo {
+    width: 360px;
+}
+
+.team-member-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.team-member-role {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Стилі для секції portfolio */
+.portfolio-photo {
+    width: 360px;
+}
+
+.portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.portfolio-item-category {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* Стилі для футера */
+.footer {
+    background-color: #2e2f42;
+}
+
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    line-height: 1.17;
 }
 
-.nav-logo span { color: #2e2f42; }
-.footer-logo span { color: #f4f4fd; }
-
-/* Оформлення навігаційних та контактних посилань */
-.nav-link,
-.contact-link {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-decoration: none;
-    color: #434455;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-    color: #404BBF;
-}
-
-/* Оформлення хедера */
-.header {
-    background-color: #2e2f42;
-    padding: 20px 0;
-}
-
-/* Оформлення списку навігації */
-.nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 20px;
-}
-
-/* Оформлення першого пункту навігації */
-.nav-list li:first-child .nav-link {
-    color: #2e2f42;
-}
-
-.nav-list li:first-child .nav-link:hover,
-.nav-list li:first-child .nav-link:focus {
-    color: #404bbf;
-}
-
-/* Оформлення списку контактів */
-.contact-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    font-style: normal;
-}
-
-/* Оформлення футера */
-.footer {
-    background-color: #2e2f42;
-    text-align: center;
-    padding: 20px;
+.footer .logo-studio {
+    color: #f4f4fd;
 }
 
 .footer-text {
-    font-family: "Raleway", sans-serif;
     line-height: 1.5;
-    color: #f4f4fd;
+    color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
-}
-
-/* Оформлення зображень */
-.team-photo,
-.portfolio-photo {
-    border-radius: 0;
-    margin-bottom: 10px;
-    width: 360px;
 }
