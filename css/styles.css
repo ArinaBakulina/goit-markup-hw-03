@@ -114,9 +114,8 @@ body {
 }
 
 /* Стилі для секції team */
-.team {  background-color: #F4F4FD;
+.team-member {background-color: #F4F4FD;
 }
-.team-list {background-color: #FFFFFF; }
 .team-photo {
     width: 360px;
     background-color: #F4F4FD;
@@ -136,6 +135,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    background-color: #FFFFFF;
 }
 
 /* Стилі для секції portfolio */
