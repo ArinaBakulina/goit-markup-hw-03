@@ -116,7 +116,7 @@ body {
 /* Стилі для секції team */
 .section-title {background-color:#FFFFFF; }
 
-.mark-1, .tom-2, .camila-3, .daniel-4 {
+.team-base {
     background-color:#FFFFFF;  
 }
 
