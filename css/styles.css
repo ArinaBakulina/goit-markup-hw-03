@@ -114,6 +114,11 @@ body {
 }
 
 /* Стилі для секції team */
+.section-title {background-color:#FFFFFF; }
+
+.mark-1, .tom-2, .camila-3, .daniel-4 {
+    background-color:#FFFFFF;  
+}
 
 .team-photo, .team-name, .team-role {
     background-color:#FFFFFF;
@@ -123,8 +128,7 @@ body {
 }
 
 .team-photo {
-    width: 360px;
-    background-color: #FFFFFF; /* Залишено фон для фото */
+        background-color: #FFFFFF; /* Залишено фон для фото */
 }
 
 .team-name {
@@ -145,9 +149,6 @@ body {
 }
 
 /* Стилі для секції portfolio */
-.portfolio-photo {
-    width: 360px;
-}
 
 .portfolio-item-title {
     font-weight: 500;
