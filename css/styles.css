@@ -1,3 +1,5 @@
+/* Підключення нормалізації стилів */
+
 /* Базові стилі для тега body */
 body {
     font-family: "Roboto", sans-serif;
@@ -7,6 +9,13 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     background-color: #FFFFFF;
+}
+
+/* Стилі для тега img */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Стилі для хедера */
@@ -72,7 +81,8 @@ nav {
     padding: 24px 0;
 }
 
-.nav-link:hover, .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: #404bbf;
 }
 
@@ -90,7 +100,8 @@ nav {
     text-decoration: none;
 }
 
-.contact-link:hover, .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
@@ -100,25 +111,31 @@ nav {
 }
 
 .hero-title {
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0 auto;
 }
 
 .hero-button {
-    background-color: #4D5AE5;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: #ffffff;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    margin: 20px auto;
+    border: none;
+    background-color: var(--button-bg-color, #4d5ae5);
+    border-radius: 4px;
     cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-align: center;
 }
 
-.hero-button:hover, .hero-button:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -149,7 +166,7 @@ nav {
 
 /* Стилі для секції team */
 .team-base {
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
 .team-member {
@@ -196,6 +213,7 @@ nav {
 /* Стилі для футера */
 .footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -217,8 +235,10 @@ nav {
     line-height: 1.5;
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
+    max-width: 264px;
 }
 
+/* Перша секція */
 .first-section {
     padding: 188px 0;
 }
@@ -227,26 +247,4 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-}
-
-.hero-title {
-    max-width: 496px;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.hero-button {
-    display: block;
-    min-width: 169px;
-    height: 56px;
-    margin: 20px auto;
-    border: none;
-    background-color: var(--button-bg-color, #4d5ae5);
-    border-radius: 4px;
-    cursor: pointer;
-    color: white;
-    font-size: 16px;
-    text-align: center;
 }
