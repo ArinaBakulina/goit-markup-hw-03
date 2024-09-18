@@ -218,3 +218,35 @@ nav {
     color: var(--footer-text-color, #F4F4FD);
     letter-spacing: 0.02em;
 }
+
+.first-section {
+    padding: 188px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero-title {
+    max-width: 496px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    margin: 20px auto;
+    border: none;
+    background-color: var(--button-bg-color, #4d5ae5);
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
