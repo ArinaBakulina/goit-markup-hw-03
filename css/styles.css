@@ -23,7 +23,7 @@ img {
     padding: 0 15px;
     margin: 0 auto;
   }
-  
+
 header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -312,6 +312,7 @@ nav {
   .projects-section {
     padding-top: 120px;
     padding-bottom: 120px;
+    row-gap: 48px;
   }
   
   .container {
@@ -422,6 +423,7 @@ nav {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    row-gap: 48px;
   }
   
     
