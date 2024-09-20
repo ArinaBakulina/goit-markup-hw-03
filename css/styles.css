@@ -388,7 +388,7 @@ nav {
   .projects-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 48px;
+    gap: 24px;
     list-style: none;
     padding: 0;
     margin: 0;
